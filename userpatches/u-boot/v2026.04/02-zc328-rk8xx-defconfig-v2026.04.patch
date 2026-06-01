@@ -1,0 +1,15 @@
+diff --git a/configs/evb-rk3288_defconfig b/configs/evb-rk3288_defconfig
+index 02347b58..ac763a11 100644
+--- a/configs/evb-rk3288_defconfig
++++ b/configs/evb-rk3288_defconfig
+@@ -74,8 +74,8 @@ CONFIG_GMAC_ROCKCHIP=y
+ CONFIG_PINCTRL=y
+ CONFIG_SPL_PINCTRL=y
+ CONFIG_DM_PMIC=y
+-CONFIG_PMIC_ACT8846=y
+-CONFIG_REGULATOR_ACT8846=y
++CONFIG_PMIC_RK8XX=y
++CONFIG_REGULATOR_RK8XX=y
+ CONFIG_DM_REGULATOR_FIXED=y
+ CONFIG_PWM_ROCKCHIP=y
+ CONFIG_RAM=y

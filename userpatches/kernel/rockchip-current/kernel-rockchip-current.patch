@@ -1,17 +1,17 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Igor Pecovnik <igor.pecovnik@****l.com>
 Date: Sun, 29 Oct 2023 10:14:20 +0800
-Subject: Patching kernel rockchip files arch/arm/boot/dts/rk3288-evb-rk808.dts
+Subject: Patching kernel rockchip files arch/arm/boot/dts/rockchip/rk3288-evb-rk808.dts
 
 Signed-off-by: Igor Pecovnik <igor.pecovnik@****l.com>
 ---
- arch/arm/boot/dts/rk3288-evb-rk808.dts | 382 ++++++++--
+ arch/arm/boot/dts/rockchip/rk3288-evb-rk808.dts | 382 ++++++++--
  1 file changed, 320 insertions(+), 62 deletions(-)
 
-diff --git a/arch/arm/boot/dts/rk3288-evb-rk808.dts b/arch/arm/boot/dts/rk3288-evb-rk808.dts
+diff --git a/arch/arm/boot/dts/rockchip/rk3288-evb-rk808.dts b/arch/arm/boot/dts/rockchip/rk3288-evb-rk808.dts
 index 42384ea4c..670bb28e1 100644
---- a/arch/arm/boot/dts/rk3288-evb-rk808.dts
-+++ b/arch/arm/boot/dts/rk3288-evb-rk808.dts
+--- a/arch/arm/boot/dts/rockchip/rk3288-evb-rk808.dts
++++ b/arch/arm/boot/dts/rockchip/rk3288-evb-rk808.dts
 @@ -1,202 +1,460 @@
  // SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 -
